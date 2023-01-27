@@ -1,0 +1,38 @@
+body {
+color:darksalmon;
+background-color: rgb(235, 230, 220);
+max-width: 600px;
+margin: 0 auto;
+}
+
+p {
+    color:olive;
+    font-size: 20px;
+    background-color: rgb(235, 230, 220);
+    border: 2px dotted;
+    padding: 20px;
+    text-align: center;
+    /* height: 30px; */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    color:saddlebrown;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkslategray;
+    text-decoration: line-through;
+}
+
+.special {
+    font-size: 25px;
+}
+
+.new {
+    background-color:burlywood;
+}
