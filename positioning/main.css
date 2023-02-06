@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.relative {
+    background-color: darkorange;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.fixed {
+    background-color: darkolivegreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: -1;
+
+}
+
+.absolute {
+    background-color: darksalmon;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.sticky {
+    background-color: darkseagreen;
+    position: sticky;
+    top: 0;
+    left: 20px;
+}
