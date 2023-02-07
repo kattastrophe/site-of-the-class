@@ -1,0 +1,47 @@
+body {
+text-align: center;
+color:darksalmon;
+background-color: rgb(235, 230, 220);
+max-width: 600px;
+margin: 0 auto;
+}
+
+p {
+    color:olive;
+    font-size: 20px;
+    background-color: rgb(235, 230, 220);
+    padding: 20px;
+    text-align: center;
+    /* height: 30px; */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    color:olive;
+    font-size: 25px;
+}
+
+a {
+    color:saddlebrown;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkslategray;
+    text-decoration: dotted;
+}
+
+.special {
+    font-size: 25px;
+}
+
+.new {
+    color:burlywood;
+}
