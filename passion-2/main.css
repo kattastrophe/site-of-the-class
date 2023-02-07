@@ -71,8 +71,11 @@ a:hover {
 }
 
 .button {
-    
-    border: none;
+    background-color: burlywood;
+    border: 0;
     color: none;
+    padding: 10px 12px;
+    vertical-align: middle;
+    border-radius: 3px;
 }
 
