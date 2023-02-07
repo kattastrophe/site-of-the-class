@@ -64,3 +64,9 @@ a:hover {
     column-count: 3;
     column-gap: 300px;
 }
+
+.button {
+    
+    border: none;
+    color: none;
+}
