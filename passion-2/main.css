@@ -3,7 +3,6 @@
 }
 
 .column {
-    
     text-align: center;
     column-count: 3;
     column-gap: 400px;
@@ -12,11 +11,16 @@
 
 body {
     font-family: 'poppins', sans-serif;
-text-align: center;
-color:darksalmon;
-background-color: rgb(235, 230, 220);
-max-width: 600px;
-margin: 0 auto;
+    text-align: center;
+    color:darksalmon;
+    background-color: rgb(235, 230, 220);
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.intro {
+    padding: 150;
 }
 
 p {
@@ -62,8 +66,8 @@ a:hover {
 .column {
     position: relative;
     text-align: center;
-    column-count: 3;
-    column-gap: 300px;
+    column-count: 2;
+    column-gap: 200px;
 }
 
 .button {
@@ -71,3 +75,4 @@ a:hover {
     border: none;
     color: none;
 }
+
