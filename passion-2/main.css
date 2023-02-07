@@ -73,10 +73,11 @@ a:hover {
 .button {
     background-color: rgb(226, 202, 150);
     border: 0;
+    display: inline-block;
     color: rgb(145, 40, 45);
     text-decoration: none;
     color: none;
-    padding: 10px 12px;
+    padding: 8px 10px;
     vertical-align: middle;
     border-radius: 3px;
 }
