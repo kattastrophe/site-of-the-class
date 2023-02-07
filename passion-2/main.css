@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-    color:darkslategray;
+    color:rgb(50, 79, 47);
     text-decoration: dotted;
 }
 
@@ -71,8 +71,10 @@ a:hover {
 }
 
 .button {
-    background-color: burlywood;
+    background-color: rgb(226, 193, 150);
     border: 0;
+    color: rgb(145, 40, 45);
+    text-decoration: none;
     color: none;
     padding: 10px 12px;
     vertical-align: middle;
