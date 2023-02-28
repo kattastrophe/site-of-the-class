@@ -1,0 +1,130 @@
+body {
+        background-color: black;
+        /* margin: 0; */
+    }
+    
+    .container {
+        display:flex;
+        flex-direction: column;
+        background: black;
+        height:100vh;
+    }
+
+    .dvd {
+        position: absolute;
+        
+        color: #fff;
+        font-size: 200px;
+        font-family: 'Red Rose', cursive;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: move 20s infinite;
+    }
+
+@keyframes move {
+    0% {
+        left: 0;
+        top: 0;
+        color: red;
+    }
+    5% {
+        left:800px;
+        top:50px;
+        color: blue;
+    }
+    10% {
+        left:200px;
+        bottom:0;
+        color: green;
+    }
+    15% {
+        left:0px;
+        top:200px;
+        color: yellow;
+    }
+    20% {
+        left:0px;
+        top:0px;
+        color: red;
+    }
+    25% {
+        left: 0;
+        top: 0;
+        color: red;
+    }
+    30% {
+        left:500px;
+        top:0px;
+        color: blue;
+    }
+    35% {
+        left:200px;
+        top:200px;
+        color: green;
+    }
+    40% {
+        left:0px;
+        top:200px;
+        color: yellow;
+    }
+    45% {
+        left:0px;
+        top:0px;
+        color: red;
+    }
+    50% {
+        left: 0;
+        top: 0;
+        color: red;
+    }
+    55% {
+        left:500px;
+        top:0px;
+        color: blue;
+    }
+    60% {
+        left:200px;
+        top:200px;
+        color: green;
+    }
+    65% {
+        left:0px;
+        top:200px;
+        color: yellow;
+    }
+    70% {
+        left:0px;
+        top:0px;
+        color: red;
+    }
+    75% {
+        left: 0;
+        top: 0;
+        color: red;
+    }
+    80% {
+        left:500px;
+        top:0px;
+        color: blue;
+    }
+    85% {
+        left:200px;
+        top:200px;
+        color: green;
+    }
+    90% {
+        left:0px;
+        top:200px;
+        color: yellow;
+    }
+    95% {
+        left:0px;
+        top:0px;
+        color: red;
+    }
+    100% {
+        left:500px;
+        top:0px;
+        color: blue;
+    }
