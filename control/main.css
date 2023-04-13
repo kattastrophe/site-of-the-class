@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pcbg.png) ;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+
+}
+
+h1 {
+    font-family: cursive;
+    color: olive;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    color:salmon;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sticker {
+    margin:50px;
+    /* display:flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    column-count: 2;
+    column-span: 50px;
+    column-fill: balance;
+
+}
+
+
+.draggable {
+    cursor: grab;
+}

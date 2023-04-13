@@ -1,0 +1,5 @@
+$(".draggable").draggable({
+    snap: true
+    
+});
+
