@@ -1,5 +1,5 @@
 $(".draggable").draggable({
-    snap: true
-    
+    snap: true,
+    scroll: false 
 });
 

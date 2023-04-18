@@ -5,8 +5,9 @@
 body {
     background-image: url(pcbg.png) ;
     background-repeat: no-repeat;
-    background-size: 1920px 1080px;
-
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
 }
 
 h1 {
@@ -26,12 +27,9 @@ p {
 
 .sticker {
     margin:50px;
-    /* display:flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
     column-count: 2;
     column-span: 50px;
-    column-fill: balance;
+   
 
 }
 
