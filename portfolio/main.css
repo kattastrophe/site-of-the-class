@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    /* padding: 20px; */
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #ff7878;
+  }
+  
+ 
+
+  .logo {
+    position: relative;
+    display: inline-block;
+}
+  .img-hover {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    left: 70px;
+    overflow-x: hidden;
+    
+}
+
+  .logo:hover .img-hover {
+    display: inline;
+   
+}
+
+  /* Main content */
+  main {
+    margin: 10px 10px 10px 350px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #ffffff;
+    padding-left: 10px;
+  }
+  
+
+  p {
+    font-size: 15px;
+  }
+
+  
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

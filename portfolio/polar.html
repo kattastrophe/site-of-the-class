@@ -1,0 +1,93 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Kat Do Portfolio</title>
+            <link rel="stylesheet" href="main.css">
+        </head>
+                
+            <body>
+
+                    <div class="sidenav">
+
+                          <div class="logo">
+                            <img src="logo.png" width="200px">
+                            <a href=index.html>
+                              <img src="logo2.png" class="img-hover" width="200px">
+                            </a>
+                          </div>
+
+                            <p> Hi! I am Kat Do, a college student currently studying communication arts and looking into creating immersive illustrations and stories :) </p>
+
+                            <a href="#">Illustration</a>
+
+                            <button class="dropdown-btn">Narrative</button>
+                              <div class="dropdown-container">
+                                <a href="socks.html">Where the Missing Socks Go</a>
+                                <a href="lilith.html">Lilith</a>
+                                <a href="#">Moon Cake</a>
+                                <a href="#">Cat Book</a>
+                              </div>
+                            
+                            <button class="dropdown-btn">Design</button>
+                            <div class="dropdown-container">
+                              <a href="polar.html">The Polar Espresso</a>
+                              <a href="#">Lilith of the Valley</a>
+                              <a href="#">Hot Chocolate</a>
+                            </div>
+                            
+                            <a href="#">About</a>
+
+                          
+                          </div>
+
+                          <main>
+                              <p> All aboard The Polar Espresso! The Polar Espresso is a cafe inspired by the movie The Polar Express and the animal itself, Polar Bears. This brand guidleline goes into the creation of the logo, the branding design, product, and many more.<p>
+
+                              <img src="polar (1).png" width="100%">
+                              <img src="polar (2).png" width="100%">
+                              <img src="polar (3).png" width="100%">
+                              <img src="polar (4).png" width="100%">
+                              <img src="polar (5).png" width="100%">
+                              <img src="polar (6).png" width="100%">
+                              <img src="polar (7).png" width="100%">
+                              <img src="polar (8).png" width="100%">
+                              <img src="polar (9).png" width="100%">
+                              <img src="polar (10).png" width="100%">
+                              <img src="polar (11).png" width="100%">
+                              <img src="polar (12).png" width="100%">
+                              <img src="polar (13).png" width="100%">
+                              <img src="polar (14).png" width="100%">
+                              <img src="polar (15).png" width="100%">
+                              <img src="polar (16).png" width="100%">
+                              <img src="polar (17).png" width="100%">
+                              <img src="polar (18).png" width="100%">
+                              <img src="polar (19).png" width="100%">
+                              <img src="polar (20).png" width="100%">
+                              <img src="polar (21).png" width="100%">
+                              <img src="polar (22).png" width="100%">
+                              <img src="polar (23).png" width="100%">
+                              <img src="polar (24).png" width="100%">
+                              <img src="polar (25).png" width="100%">
+                            </div>
+                          </div>
+
+                          <script>
+                           
+                            var dropdown = document.getElementsByClassName("dropdown-btn");
+                            var i;
+                            
+                            for (i = 0; i < dropdown.length; i++) {
+                              dropdown[i].addEventListener("click", function() {
+                                this.classList.toggle("active");
+                                var dropdownContent = this.nextElementSibling;
+                                if (dropdownContent.style.display === "block") {
+                                  dropdownContent.style.display = "none";
+                                } else {
+                                  dropdownContent.style.display = "block";
+                                }
+                              });
+                            }
+                            </script>
+                            
+            </body>
+    </html>
