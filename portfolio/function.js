@@ -3,3 +3,9 @@ $(document).ready(function(){
 		$('.menu').slideToggle();
 	});
 });
+
+$(document).ready(function() {
+	$("body").on("contextmenu", function(e) {
+		return false;
+	  });
+  });
