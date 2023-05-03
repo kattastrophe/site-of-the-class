@@ -4,8 +4,8 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function() {
-	$("main").on("contextmenu", function(e) {
-		return false;
-	  });
-  });
+// $(document).ready(function() {
+// 	$("main").on("contextmenu", function(e) {
+// 		return false;
+// 	  });
+//   });
