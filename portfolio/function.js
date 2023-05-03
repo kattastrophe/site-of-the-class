@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-	$("body").on("contextmenu", function(e) {
+	$("main").on("contextmenu", function(e) {
 		return false;
 	  });
   });
