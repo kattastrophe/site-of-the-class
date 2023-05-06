@@ -42,24 +42,23 @@ body {
   
  
 
-  .logo {
-    position: relative;
-    display: inline-block;
-}
-  .img-hover {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 70px;
-    left: 70px;
-    overflow-x: hidden;
-    
-}
+                .logo {
+                  position: relative;
+                  display: inline-block;
+              }
+                .img-hover {
+                  display: none;
+                  position: fixed;
+                  z-index: 1;
+                  top: 70px;
+                  left: 70px;
+                  overflow-x: hidden;
+              }
 
-  .logo:hover .img-hover {
-    display: inline;
-   
-}
+                .logo:hover .img-hover {
+                  display: inline;
+                
+              }
 
   /* Main content */
   main {
@@ -86,8 +85,28 @@ body {
   p {
     font-size: 15px;
   }
+                .social {
+                  position: fixed;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: flex-start;
+              }
+                .scl-hover {
+                  width: 22.5%;
+                  display: none;
+                  position: absolute;
+                  flex-direction: row;
+                  align-items: flex-start;
+                  z-index: 1;
+                  bottom: 10px;
+                  left: 10px;
+                  overflow-x: hidden;
+              }
 
-  
+                .social:hover .scl-hover {
+                  display: inline;
+                
+              }
   
   /* Some media queries for responsiveness */
   @media screen and (max-height: 450px) {
